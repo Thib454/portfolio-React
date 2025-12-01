@@ -22,7 +22,7 @@ You can view the live portfolio here: [Your Live URL]
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** React, Next.js, CSS Modules  
+- **Frontend:** React, Next.js, Tailwind CSS, TypeScript  
 - **Tools:** VS Code, Git/GitHub, Postman  
 - **Design:** Soft pastel UI, clean typography, subtle animations  
 - **Other:** REST APIs, Agile principles, responsive design
