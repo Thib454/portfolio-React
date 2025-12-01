@@ -12,8 +12,17 @@ const Navbar: React.FC = () => {
         <div className="text-2xl font-bold text-blue-600">Thibault Depeige</div>
 
         <nav className="hidden md:flex space-x-6">
-          <Link href="#cv-en" className="hover:text-blue-500">Resume (EN)</Link>
-          <Link href="/public/Depeige_Thibault_CV.pdf" className="hover:text-blue-500">Download CV (FR)</Link>
+          <Link 
+            href="#" 
+            className="hover:text-blue-500">
+            Download Resume (EN)
+          </Link>
+          <Link
+            href="/public/Depeige_Thibault_CV.pdf"
+            className="hover:text-blue-500"
+          >
+            Download CV (FR)
+          </Link>
           <a
             href="https://github.com/Thib454"
             target="_blank"
@@ -39,8 +48,20 @@ const Navbar: React.FC = () => {
       {/* Menu mobile */}
       {isOpen && (
         <div className="md:hidden bg-white shadow-md">
-          <Link href="#cv-en" className="block px-4 py-2 hover:bg-gray-100" onClick={() => setIsOpen(false)}>Resume (EN)</Link>
-          <Link href="#cv-fr" className="block px-4 py-2 hover:bg-gray-100" onClick={() => setIsOpen(false)}>Download CV (FR)</Link>
+          <Link
+            href="#cv-en"
+            className="block px-4 py-2 hover:bg-gray-100"
+            onClick={() => setIsOpen(false)}
+          >
+            Resume (EN)
+          </Link>
+          <Link
+            href="/public/Depeige_Thibault_CV.pdf"
+            className="block px-4 py-2 hover:bg-gray-100"
+            onClick={() => setIsOpen(false)}
+          >
+            Download CV (FR)
+          </Link>
           <a
             href="https://github.com/Thib454"
             target="_blank"
