@@ -23,12 +23,13 @@ const projects: Project[] = [
     image: "/ParentsEnConfiance.jpg",
   },
   {
-    title: "Personal Portfolio",
-    description: "Showcase site for projects and skills.",
-    tech: ["HTML5", "CSS3", "JavaScript", "GitHub Pages"],
-    github: ["https://github.com/Thib454/portfolio"],
-    image: "/portfolio.jpg",
-    live: ["https://thib454.github.io/portfolio/",],
+    title: "Wizarding Codex – Harry Potter",
+    description:
+      "An Angular web application serving as an interactive compendium of the Harry Potter universe. Users can explore characters, spells, and magical creatures through a clean and responsive interface.",
+    tech: ["Angular", "TypeScript", "SCSS", "REST API"],
+    github: ["https://github.com/Thib454/angular_harry_potter"],
+    image: "/Hp.jpg",
+    live: ["https://wizarding-codex-hp.netlify.app"],
   },
   {
     title: "Carambar Project",
@@ -43,6 +44,14 @@ const projects: Project[] = [
       "https://backend-carambar-jokes.onrender.com/",
       "https://thib454.github.io/frontend-carambar-jokes/",
     ],
+  },
+  {
+    title: "Personal Portfolio",
+    description: "Showcase site for projects and skills.",
+    tech: ["HTML5", "CSS3", "JavaScript", "GitHub Pages"],
+    github: ["https://github.com/Thib454/portfolio"],
+    image: "/portfolio.jpg",
+    live: ["https://thib454.github.io/portfolio/"],
   },
 ];
 
