@@ -6,7 +6,7 @@ Welcome to my personal portfolio! This project showcases my skills as a **Full S
 
 ## 🖥️ Live Demo
 
-You can view the live portfolio here: [Your Live URL]  
+You can view the live portfolio here: https://personal-portfolio-in-react.netlify.app/
 
 ---
 
