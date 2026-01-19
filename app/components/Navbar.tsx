@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
     { label: "Experience", href: "#experience" },
     { label: "Contact", href: "#contact" },
     { label: "Projects", href: "#projects" },
-    { label: "Resume (EN)", href: "#cv-en" },
+    { label: "Resume (EN)", href: "https://thib454.github.io/portfolio/CV-En.html" },
     { label: "Download CV (FR)", href: "/public/Depeige_Thibault_CV.pdf" },
     { label: "GitHub", href: "https://github.com/Thib454", external: true },
   ];
